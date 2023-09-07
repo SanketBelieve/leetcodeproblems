@@ -11,7 +11,7 @@ if index is not None:
     list1[index] = right
 
 print(list1)'''
-def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
+def reverseBetween(head: Optional[listNode], left: int, right: int) -> Optional[ListNode]:
         if not (head and left < right):
             return head
 
