@@ -16,6 +16,7 @@ def add(x,y):
 
 print(square(cube(add(3,2))))
 '''
+'''
 n=12345
 total = 0
 product = 1
@@ -25,8 +26,19 @@ while n != 0:
     product *= digit
     n//=10
 print(total)
-print(product + total)
+print(product + total)'''
 
 
+list1=[300,150,450]
+list2=[]
+for i in list1:
+    if i <=300:
+        i += 15
+        list2.append(i)
+    else:
+        dc=0.15 * i 
+        i+=dc 
+        list2.append(i)
 
+print(list2)        
     
