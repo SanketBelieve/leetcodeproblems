@@ -12,3 +12,7 @@ def isPowerOfTwo(n):
             n /= 2
         # If n is equal to 1, The integer is a power of two otherwise false...
         return n == 1
+
+print(isPowerOfTwo(12))
+
+    
