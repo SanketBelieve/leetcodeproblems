@@ -28,7 +28,7 @@ while n != 0:
 print(total)
 print(product + total)'''
 
-
+'''
 list1=[300,150,450]
 list2=[]
 for i in list1:
@@ -40,5 +40,9 @@ for i in list1:
         i+=dc 
         list2.append(i)
 
-print(list2)        
+print(list2) '''
+
+s='python'
+for i in s:
+    print(i)       
     
