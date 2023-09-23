@@ -1,4 +1,4 @@
-def readBinaryWatch(self, turnedOn: int) -> List[str]:
+def readBinaryWatch(self, turnedOn: int) -> list[str]:
         out=[]
         for h in range(12):
             for m in range(60):
