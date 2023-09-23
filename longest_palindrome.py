@@ -10,4 +10,4 @@ def longestPalindrome_set(s):
     else:
         return len(s)
     
-print(longestPalindrome_set("abccccdd"))    
+print(longestPalindrome_set(""abccccdd""))    
