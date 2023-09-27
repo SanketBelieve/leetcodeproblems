@@ -1,4 +1,4 @@
-def findMaxConsecutiveOnes( nums: list[int]) -> int:
+def findMaxConsecutiveOnes(nums: list[int]) -> int:
         kk = ''.join(map(str, nums))
 
         ll = kk.split('0')
