@@ -42,7 +42,6 @@ for i in list1:
 
 print(list2) '''
 
-s='python'
-for i in s:
-    print(i)       
-    
+
+r = "sliced"
+print(r[2:-2])
