@@ -43,5 +43,3 @@ for i in list1:
 print(list2) '''
 
 
-r = "sliced"
-print(r[2:-2])
