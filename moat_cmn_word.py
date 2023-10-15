@@ -5,10 +5,8 @@
         
 paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
 a=paragraph.split()
-s={}
 banned = "hit"
 s=0
-print(a)
 
 for i in a:
     if banned in i:
