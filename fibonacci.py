@@ -8,6 +8,19 @@ for i in range(0,n):
         result = first + second
         first = second
         second = result
-    
+    if result > n:
+        break
     print(result)
+    
         
+# n=10
+
+# def fib():
+#     a,b = 0,1
+#     while a<10:
+#         yield a
+#         a,b = b,a+b
+        
+# a = fib()
+# for i in range(10):
+#     print(a.__next__())     
